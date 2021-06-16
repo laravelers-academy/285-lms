@@ -7,6 +7,8 @@ const path = require('path')
         resolve: {
             alias: {
                 '@app': path.resolve(__dirname, 'resources/vue'),
+                '@js': path.resolve(__dirname, 'resources/js'),
+                '@json': path.resolve(__dirname, 'resources/json'),
             }
         }
     });

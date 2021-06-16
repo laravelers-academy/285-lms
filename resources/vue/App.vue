@@ -8,7 +8,11 @@
 	
 	export default {
 
+		beforeCreate() {
 
+			this.$store.dispatch('initApp');
+
+		}
 
 	}
 
