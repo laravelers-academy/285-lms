@@ -1,9 +1,12 @@
 {
-    "": "\/",
+    "": "sanctum\/csrf-cookie",
     "logout": "logout",
     "password.email": "forgot-password",
     "password.update": "reset-password",
     "verification.verify": "email\/verify\/{id}\/{hash}",
     "verification.send": "email\/verification-notification",
-    "password.confirmation": "user\/confirmed-password-status"
+    "password.confirmation": "user\/confirmed-password-status",
+    "get.auth.user": "get-auth-user",
+    "password.reset": "password-reset\/{token}",
+    "app": "{any?}"
 }

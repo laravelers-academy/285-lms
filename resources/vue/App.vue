@@ -1,6 +1,10 @@
 <template>
 	
-	<p>Hola desde Vue</p>
+	<div id="AppWrapper">
+		
+		<router-view></router-view>
+
+	</div>
 
 </template>
 
